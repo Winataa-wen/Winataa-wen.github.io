@@ -587,9 +587,9 @@ scene.add(planet);
 
 //Ganti Deskripsi Planet
 const ringTexts = [
-  'Galaxy of love From Winataa',//untuk deskripsi planet layer 1
+  'Galaxy From Winataa',//untuk deskripsi planet layer 1
   "I love you Icel",//untuk deskripsi planet layer 2
-  "♡Happy Sweet Seventeen Sayang Icel♡",//untuk deskripsi planet layer 3
+  "♡Happy Sweet Seventeen Icel♡",//untuk deskripsi planet layer 3
   "28/04/2026",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
@@ -1067,17 +1067,17 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext('2d');
   const fontSize = 50;
-  const text = 'Happy Girlfriend Day!';
+  const text = 'Happy Sweet Seventeen!';
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = 'center';
   context.textBaseline = 'middle';
   context.shadowColor = '#ffb3de';
-  context.shadowBlur = 5;
+  context.shadowBlur = 4;
   context.lineWidth = 2;
   context.strokeStyle = 'rgba(255, 200, 220, 0.8)';
   context.strokeText(text, canvasSize / 2, canvasSize / 2);
   context.shadowColor = '#e0b3ff';
-  context.shadowBlur = 5;
+  context.shadowBlur = 4;
   context.lineWidth = 2;
   context.strokeStyle = 'rgba(220, 180, 255, 0.5)';
   context.strokeText(text, canvasSize / 2, canvasSize / 2);
