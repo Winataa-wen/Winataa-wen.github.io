@@ -7,14 +7,6 @@
 
 ---
 
-## ✨ Features
-- 🌠 **Interactive Galactic Animation** — stars move & twinkle in real-time  
-- 💖 **Romantic Space Vibes** — cosmic colors with a touch of love  
-- 📱 **Responsive Design** — looks perfect on any device  
-- ⚡ **Lightweight & Fast** — no heavy dependencies  
-
----
-
 ## 🛠️ Tech Stack
 | Technology | Purpose |
 |------------|---------|
